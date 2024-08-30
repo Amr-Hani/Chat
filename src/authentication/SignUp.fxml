@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+   <children>
+      <TextField fx:id="tf_username" layoutX="218.0" layoutY="61.0" promptText="UserName" />
+      <TextField fx:id="tf_password" layoutX="218.0" layoutY="123.0" promptText="Password" />
+      <TextField fx:id="tf_email" layoutX="218.0" layoutY="185.0" promptText="Email" />
+      <Button fx:id="btn_signup" layoutX="218.0" layoutY="266.0" mnemonicParsing="false" onAction="#_signUp" text="SignUp" />
+      <Button fx:id="btn_goToLogIn" layoutX="312.0" layoutY="266.0" mnemonicParsing="false" onAction="#_goToLogIn" text="GoToLogin" />
+   </children>
+</AnchorPane>
